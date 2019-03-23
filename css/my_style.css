@@ -1,0 +1,276 @@
+body > header .nav_one{
+    padding-top: 15px
+}
+body > header .nav_one, 
+body > header .nav_two
+{
+    padding-left: 35px;
+    padding-right: 35px
+}
+body > header .nav_one .sigle img{
+    width: 250px;
+    height: 60px
+}
+body > header .nav_one .contac_info .phone_number{
+    color: #57585b;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bold
+}
+body > header .nav_one .contac_info .phone_number img{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px
+}
+body > header .nav_one .contac_info{
+    padding-top: 5px
+}
+body > header .nav_one .social_media_links img{
+    display: inline-block;
+    margin-left: 10px;
+    width: 22px;
+    height: 22px;
+    margin-top: 5px
+}
+body > header .nav_two{
+    background-color: #57585b;
+    height: 50px;
+    margin-top: 25px
+}
+body > header .nav_two .navs .nav_bar_item{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 50px;
+    padding-top: 12px;
+    border-right: #878080 1px dashed;
+    cursor: pointer
+}
+body > header .nav_two .navs .nav_bar_item:hover{
+    background-color: #5caee1
+}
+body > header .nav_two .navs .nav_bar_item a{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bold
+}
+body > header .nav_two .search_box{
+    padding-top: 5px;
+    width: 300px
+}
+body > header .nav_two .search_box .form-group{
+    background-color: transparent;
+    border-radius: 0px;
+}
+body > header .nav_two .search_box .form-control,
+body > header .nav_two .search_box .input-group-text
+{
+    background-color: transparent;
+    border: #878080 1px solid
+}
+body > header .nav_two .search_box .input-group-text{
+    border-right: none;
+}
+body > header .nav_two .search_box .form-control{
+    border-left: none
+}
+body > header .nav_two .search_box .input-group-text img{
+    width: 18px;
+    height: 18px
+}
+body > header .nav_two .search_box .form-control::-webkit-input-placeholder {
+    color: #878080; 
+}
+body .business_content{
+    padding-left: 15px
+}
+body .business_content > div{
+    position: relative;
+}
+body .business_content > div > div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 450px;
+    z-index: -1
+}
+body .business_content > div > div img{
+    width: 100%;
+    height: 100%
+}
+body .business_content > div > h1{
+    color: #5caee1;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 35px
+}
+body .business_content .liste_services_one{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 200px
+}
+body .business_content .liste_services_one .item{
+    padding: 25px;
+    height: 360px;
+}
+body .business_content .liste_services_one .item:nth-child(1){
+    background-color: #59a2d0
+}
+body .business_content .liste_services_one .item:nth-child(2){
+    background-color: #58a7d9
+}
+body .business_content .liste_services_one .item:nth-child(3){
+    background-color: #5daee1
+}
+body .business_content .liste_services_one .item:nth-child(4){
+    background-color: #64b6ea
+}
+body .business_content .liste_services_one .item .icon img{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 20px
+}
+body .business_content .liste_services_one .item .title{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 25px
+}
+body .business_content .liste_services_one .item .description{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+}
+body .business_content .liste_services_one .item a{
+    color: white;
+    text-decoration: underline;
+    text-align: right
+}
+body .business_content .liste_services_two{
+    margin-top: 25px;
+    padding-left: 85px;
+    padding-right: 85px
+}
+body .business_content .liste_services_two .item{
+    margin-bottom: 35px
+}
+body .business_content .liste_services_two .item .icon{
+    background-color: #59a2d0;
+    width: 100px;
+}
+body .business_content .liste_services_two .item .icon img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto
+}
+body .business_content .liste_services_two .item .description{
+    padding-top: 15px
+}
+body .business_content .liste_services_three .about img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+    margin-top: 25px
+}
+body .business_content .liste_services_three .about p{
+    font-family: oswald,sans-serif;
+    color: #878080
+}
+body .business_content .liste_services_three .about .label{
+    font-family: oswald,sans-serif;
+    color: black
+}
+body .business_content .liste_services_three .about input{
+    padding-left: 25px;
+    background-color: #59a2d0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    height: 40px
+}
+body .business_content .liste_services_three .services .label{
+    font-family: oswald,sans-serif;
+    color: black
+}
+body .business_content .liste_services_three .services p{
+    font-family: oswald,sans-serif;
+    color: #878080
+}
+body .business_content .liste_services_three .services ul{
+    padding-left: 15px
+}
+body .business_content .liste_services_three .services li{
+    font-family: oswald,sans-serif;
+    color: #59a2d0;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: #d9d9d9 1px dashed;
+    cursor: pointer
+}
+body .business_content .liste_services_three .services input{
+    padding-left: 25px;
+    background-color: #59a2d0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    height: 40px
+}
+body .business_content .liste_services_three nav{
+    background-color: #59a2d0;
+    height: 350px
+}
+body > header .nav_two .menu_icon{
+    display: none
+}
+body > header .nav_two .menu_icon img{
+    width: 35px;
+    height: 40px;
+    margin-top: 3px
+}
+@media(max-width: 900px){
+    body > header .nav_two .navs{
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        bottom: 0;
+        z-index: 5000;
+        display: none
+    }
+    body > header .nav_two .navs .nav_bar_item{
+        display: block;
+        background-color: #57585b;
+        width: 100%;
+        border-top: #878080 1px dashed;
+    }
+    body > header .nav_two .menu_icon{
+        display: inline-block
+    }
+    body .business_content .liste_services_one{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    body .business_content .liste_services_two{
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    body .business_content .liste_services_three .about{
+        margin-bottom: 15px
+    }
+    body .business_content .liste_services_three .services{
+        margin-bottom: 15px
+    }
+}
